@@ -174,16 +174,16 @@
 
 
 .desktop1-text19 {
-  top: 181px;
+  top: 190px;
   left: 70.25%;
   color: rgba(255, 255, 255, 1);
   width: 399px;
   height: auto;
   position: absolute;
-  font-size: 25px;
+  font-size: 23px;
   align-self: auto;
   text-align: left;
-  font-family: Lato;
+  font-family: 'Anonymous Pro', monospace;
   font-weight: 700;
   line-height: normal;
   font-stretch: normal;
@@ -196,16 +196,16 @@ text-decoration: underline;
 }
 
 .desktop1-text21 {
-  top: 612px;
+  top: 617px;
   left: 70.25%;
   color: rgba(255, 255, 255, 1);
   width: 393px;
   height: auto;
   position: absolute;
-  font-size: 25px;
+  font-size: 23px;
   align-self: auto;
   text-align: left;
-  font-family: Lato;
+  font-family: 'Anonymous Pro', monospace;
   font-weight: 700;
   line-height: normal;
   font-stretch: normal;
