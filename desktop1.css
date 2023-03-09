@@ -160,43 +160,16 @@
   margin-bottom: 0;
   text-decoration: none;
 }
-.desktop1-rectangle3 {
-  top: 612px;
-  left: 991px;
-  width: 419px;
-  height: 113px;
-  position: absolute;
-  border-color: transparent;
-}
+
 .desktop1-rectangle4 {
-  top: 746px;
+  top: 610px;
   left: 991px;
   width: 419px;
   height: 38px;
   position: absolute;
   border-color: transparent;
 }
-.desktop1-text17 {
-  top: 621px;
-  left: 991px;
-  color: rgba(255, 255, 255, 1);
-  width: 399px;
-  height: auto;
-  position: absolute;
-  font-size: 25px;
-  align-self: auto;
-  text-align: left;
-  font-family: Lato;
-  font-weight: 700;
-  line-height: normal;
-  font-stretch: normal;
-  margin-right: 0;
-  margin-bottom: 0;
-  text-decoration: none;
-}
-.desktop1-text17:hover{
-  text-decoration: underline;
-}
+
 
 .desktop1-text19 {
   top: 181px;
@@ -221,7 +194,7 @@ text-decoration: underline;
 }
 
 .desktop1-text21 {
-  top: 746px;
+  top: 612px;
   left: 1004px;
   color: rgba(255, 255, 255, 1);
   width: 393px;
