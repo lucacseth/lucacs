@@ -73,9 +73,11 @@
   font-stretch: normal;
   margin-right: 0;
   margin-bottom: 0;
+  transition: all 0.3s ease;
 }
 .desktop1-text07:hover {
-  text-decoration: line-through;
+  color: rgb(145, 187, 233);
+  text-decoration: none;
 }
 
 .desktop1-text09 {
@@ -97,7 +99,8 @@
   margin-bottom: 0;
 }
 .desktop1-text09:hover {
-  text-decoration: line-through;
+  color: rgb(145, 187, 233);
+  text-decoration: none;
 }
 
 .desktop1-text11 {
@@ -310,7 +313,8 @@ text-decoration: underline;
 }
 
 .desktop2-text03:hover {
-  text-decoration: line-through;
+  text-decoration: none;
+  transform: translate(-50%, -50%) scale(1.1);
 }
 
 .desktop2-text04 {
@@ -332,7 +336,8 @@ text-decoration: underline;
   margin-bottom: 0;
 }
 .desktop2-text04:hover {
-  text-decoration: line-through;
+  color: rgb(145, 187, 233);
+  text-decoration: none;
 }
 
 .desktop2-text06 {
@@ -354,7 +359,8 @@ text-decoration: underline;
   margin-bottom: 0;
 }
 .desktop2-text06:hover {
-  text-decoration: line-through;
+  color: rgb(145, 187, 233);
+  text-decoration: none;
 }
 .desktop2-text08 {
   top: 81%;
