@@ -29,6 +29,7 @@
         background-color: var(--dl-color-gray-white);
 
       }
+
     </style>
     <link
       rel="stylesheet"
@@ -53,6 +54,7 @@
 
       <div class="desktop1-container">
         <div class="desktop1-desktop1">
+          <div class="bg-left">
           <img
             src="public/playground_assets/background122-qkom-1100h.png"
             alt="Background122"
@@ -85,6 +87,8 @@
               publications, enjoy :)
             </span>
           </span>
+          </div>
+          <div class="bg-right">
           <span class="desktop1-text13"><span>Research</span></span>
           <img
             src="public/playground_assets/rectangle144-0mbl-200h.png"
@@ -111,6 +115,7 @@
               </a>
             </span>
           </span>
+          </div>
         </div>
       </div>
     </div>
@@ -154,5 +159,85 @@
         </div>
       </div>
     </div>
+    <style type="text/css">
+       @media(max-width: 768px){
+        .desktop1-desktop1 .bg-left{
+          position: relative;
+              background: url(public/playground_assets/background122-qkom-1100h.png) no-repeat;
+            min-height: 100vh;
+            background-size: cover;
+            background-position: center;
+        }
+        .desktop1-desktop1 .bg-right{
+          position: relative;
+              background: url(public/playground_assets/background122-qkom-1100h.png) no-repeat;
+            height: 100vh;
+            background-size: cover;
+            background-position: center right;
+        }
+        .desktop1-desktop1 .desktop1-background1{
+          display: none;
+        }
+        .desktop1-desktop1 .desktop1-text{
+          left: 15px;
+          font-size: 52px;
+          width: auto;
+        }
+        .desktop1-text09{
+              left: initial;
+           right: 50px;
+        }
+        .desktop1-text07{
+                 left: initial;
+              right: -15px;
+              width: auto;
+        }
+        .desktop1-text09{
+          left: initial;
+          width: auto;
+          right: 85px;
+        }
+        .desktop1-text11{
+          width: auto;
+        }
+        .desktop1-text13, .desktop1-text15, .desktop1-text21{
+          left: 15px;
+          width: auto;
+        }
+        .desktop1-rectangle1, .desktop1-rectangle4{
+          display: none;
+        }
+        .desktop1-text21, .desktop1-text19{
+              background: #ffffff4d;
+            padding: 10px;
+            max-width: 92%;
+        }
+        .desktop1-rectangle4, .desktop1-text19{
+          left: 15px;
+          width: auto;
+        }
+        .desktop2-bear1{
+          width: 300px;
+          height: 300px;
+        }
+        .desktop2-text02{
+          width: 100%;
+          top: 65%;
+          font-size: 52px;
+        }
+        .desktop2-text08{
+              top: 75%;
+    font-size: 25px;
+    width: 100%;
+    min-width: 300px;
+        }
+        .desktop2-text06{
+          left: 35%;
+        }
+        .desktop2-text04{
+          left: 75%;
+        }
+      }
+    </style>
   </body>
 </html>
