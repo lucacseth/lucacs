@@ -147,6 +147,14 @@
   position: absolute;
   border-color: transparent;
 }
+.desktop1-rectangle2 {
+  top: 280px;
+  left: 69.5%;
+  width: 419px;
+  height: 92px;
+  position: absolute;
+  border-color: transparent;
+}
 .desktop1-text15 {
   top: 518px;
   left: 71.5%;
@@ -175,7 +183,6 @@
   border-color: transparent;
 }
 
-
 .desktop1-text19 {
   top: 190px;
   left: 70.25%;
@@ -195,6 +202,28 @@
   text-decoration: none;
 }
 .desktop1-text19:hover{
+text-decoration: underline;
+}
+
+.desktop1-text20 {
+  top: 290px;
+  left: 70.25%;
+  color: rgba(255, 255, 255, 1);
+  width: 399px;
+  height: auto;
+  position: absolute;
+  font-size: 23px;
+  align-self: auto;
+  text-align: left;
+  font-family: 'Anonymous Pro', monospace;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.desktop1-text20:hover{
 text-decoration: underline;
 }
 
