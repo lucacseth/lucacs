@@ -67,6 +67,10 @@ p:last-of-type {
   margin-bottom: var(--spacing-large);
 }
 
+.noise-text {
+  color: #F34533;
+}
+
 .noise-link {
   color: var(--text-color);
   text-decoration: none;
@@ -83,6 +87,7 @@ p:last-of-type {
   display: flex;
   gap: 1.5rem;
   justify-content: center;
+  align-items: center;
 }
 
 .social-links a {
