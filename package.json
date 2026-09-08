@@ -1,10 +1,18 @@
 {
-  "name": "website",
+  "name": "lucacs",
   "version": "1.0.0",
   "private": true,
-  "dependencies": {
-    "parcel-bundler": "^1.6.1"
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "check": "npm run build && git diff --exit-code -- index.html"
   },
-  "scripts": {},
-  "devDependencies": {}
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.0",
+    "@stylexjs/babel-plugin": "^0.19.0",
+    "@stylexjs/stylex": "^0.19.0"
+  }
 }
